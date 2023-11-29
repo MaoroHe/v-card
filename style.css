@@ -1,1 +1,163 @@
+body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #FFFFFF;
+    background-image: url('assets/vecteezy_japanese-wave-line-art-vector-illustration_3349095/bigwave_japan-new_generated.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto;
+    /* backdrop-filter: blur(3px);  */
+    max-width: auto;
+    height: 800px;
+}
 
+.container {
+    display: flex;
+    width: 800px;
+    height: 500px;
+    background-color: #fcf9f9;
+    border-radius: 34px; 
+    box-shadow: 0px 4px 6px 1px #494949;
+    padding-left: 15px;
+}
+
+button {
+    all:unset;
+}
+
+.buttrond {
+    width: 10px;
+    height: 10px;
+    background-color: #dcdcdc;
+    border-radius: 100%;
+    margin-right: 7px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.un:hover {
+    background-color: #ED382C;
+} .deux:hover {
+    background-color: #F68533;
+} .trois:hover {
+    background-color: #56D641;
+}
+
+.selfie {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin-top: 75px;
+    margin-left: -20px;
+}
+
+.txt {
+    max-width: 500px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 75px;
+    margin-left: 15px;
+    font-size: 25px;
+    letter-spacing: 0.2px;
+}
+
+h2 {
+    margin-left: 15px;
+    margin-top: -17px;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 20px;
+    color: #5A54A5;
+}
+
+h6 {
+    margin-left: 15px;
+    margin-top: auto;
+    font-size: 14px;
+    font-family: 'Gothic A1', sans-serif;
+    letter-spacing: 0.3px;
+    font-weight: lighter;
+}
+
+p {
+    margin-left:  15px;
+    margin-top: -34px;
+    font-size: 14px;
+    font-family: 'Gothic A1', sans-serif;
+    letter-spacing: 0.3px;
+    font-weight: lighter;
+}
+
+.foot {
+    display: flex;
+    position: absolute;
+    height: 150px;
+    width: 815px;
+    background-color: #5A54A5;
+    z-index: 1;
+    flex-direction: row;
+    margin-top: 355px;
+    border-bottom-right-radius: 34px;
+    border-bottom-left-radius: 34px;
+    box-shadow: 0px 4px 6px 1px #494949;
+    border: 1.5px #5A54A5;
+    justify-content: space-around;
+}
+
+.reseau {
+    background-color: #4E4897;
+    width: 82px;
+    height: 82px;
+    border-radius: 100%;
+    margin-top: 34px;
+}
+
+.reseau.uno {
+    background-image: url('assets/mail_FILL0_wght400_GRAD0_opsz24_BLANC.svg');
+    background-repeat: no-repeat;   
+    background-position: center;
+    background-size: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.reseau.due {
+    background-image: url('assets/api_FILL0_wght400_GRAD0_opsz24_BLANC.svg');
+    background-repeat: no-repeat;   
+    background-position: center;
+    background-size: 60%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.reseau.tre {
+    background-image: url('assets/icons8-linkedin_BLANC.svg');
+    background-repeat: no-repeat;   
+    background-position: center;
+    background-size: 60%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.reseau.quattro {
+    background-image: url('assets/icons8-instagram_BLANC.svg');
+    background-repeat: no-repeat;   
+    background-position: center;
+    background-size: 60%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.reseau.uno:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.reseau.due:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.reseau.tre:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.reseau.quattro:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
